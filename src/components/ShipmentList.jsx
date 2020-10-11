@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ShipmentItem from "./ShipmentItem"
 
 function ShipmentList() {
   const [shipments, setShipments] = useState([]);
@@ -10,7 +11,22 @@ function ShipmentList() {
 
   return (
     <div className="App">
-      <h1>test</h1> {shipments.toString()}
+      <ShipmentItem data={{
+          name: "Test Shipment #1",
+        destination: "2115 Supulevda Ave",
+        client: "Brenda",
+        current_location: {
+            lat: 000000,
+            long: 000000
+        },
+        current_state: "Processing",
+        created_date: new Date(),
+        updated_date: new Date(),
+        processed_date: new Date(),
+        delivery_date: new Date(),
+        delivered_date: new Date(),
+        arrival_date: new Date(),
+      }}></ShipmentItem>
     </div>
   );
 }
