@@ -16,8 +16,8 @@ function ShipmentList() {
         destination: "2115 Supulevda Ave",
         client: "Brenda",
         current_location: {
-            lat: 000000,
-            long: 000000
+            lat: 0,
+            long: 0
         },
         current_state: "Processing",
         created_date: new Date(),

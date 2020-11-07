@@ -1,3 +1,30 @@
+## Order Data
+- id - firebase doc id
+- address - Address to deliver to
+- client  - person to deliver to
+- description - description of the service
+- status - current shipment status (PLACED, COLLECTING, DELIVERING, DELIVERED);
+- location - current location of the car
+- date_estimate - estimated data of delivery
+- date_placed - date when the order was placed
+- date_collected - date when the order was collected
+- date_delivering - date when the order was out for delivery
+- date_delivered - date when the order was delivered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
